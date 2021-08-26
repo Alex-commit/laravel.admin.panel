@@ -100,6 +100,13 @@
                         </div>
                     </div>
                 </div>
+{{--                <div>--}}
+{{--                    <h2>Hello</h2>--}}
+{{--                    @php--}}
+{{--                        $p = \App\Sblog\Core\BlogApp::get_instance()->getProperty('shop_name');--}}
+{{--                        dd($p);--}}
+{{--                    @endphp--}}
+{{--                </div>--}}
 
                 <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
                     <div class="text-center text-sm text-gray-500 sm:text-left">
@@ -128,5 +135,7 @@
                 </div>
             </div>
         </div>
+
+
     </body>
 </html>
